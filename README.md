@@ -1,2 +1,2 @@
-# API_Streaming_V-deos
+# API_Streaming_Videos
 Aplicação para gerenciamento e exibição de vídeos
