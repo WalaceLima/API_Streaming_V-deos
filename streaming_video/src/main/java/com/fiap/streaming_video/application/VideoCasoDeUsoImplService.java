@@ -9,18 +9,7 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-/*@Service
-public class VideoCasoDeUsoImpl{
 
-    private static final String FORMAT="classPath:videos/%.mp4";
-    @Autowired
-    private ResourceLoader resourceLoader;
-
-public Mono<Resource> getVideo(String title){
-    return Mono.fromSupplier(()->resourceLoader
-            .getResource(String.format(FORMAT,title)));
-}
-}*/
 @Log4j2
 @Service
 public class VideoCasoDeUsoImplService implements VideoCasoDeUsoService {
@@ -43,13 +32,14 @@ public class VideoCasoDeUsoImplService implements VideoCasoDeUsoService {
         return videoRepository.findById(id);
     }
 
-    @Override
-    public Mono<Void> deleteVideoById(String id) {
+    public Mono<Void> deleteVideo(String id) {
         return videoRepository.deleteById(id);
     }
 
-    @Override
-    public Mono<Video> updateVideoById(String id) {
-        return null;
-    }
+
+/*    @Override
+    public Mono<Void> updateVideo(String id) {
+        return videoRepository.updateVideo(id);
+    }*/
+
 }

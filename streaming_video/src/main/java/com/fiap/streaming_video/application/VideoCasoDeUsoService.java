@@ -8,6 +8,6 @@ public interface VideoCasoDeUsoService {
     Mono<Video> createOrUpdateVideo(Video video);
     Flux<Video> findAllVideos();
     Mono<Video> findByIdVideo(String id);
-    Mono<Void> deleteVideoById(String id);
-    Mono<Video> updateVideoById(String id);
+    Mono<Void> deleteVideo(String id);
+ //   Mono<Void> updateVideo(String id);
 }

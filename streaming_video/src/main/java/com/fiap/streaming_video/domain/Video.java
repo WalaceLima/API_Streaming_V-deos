@@ -1,19 +1,23 @@
 package com.fiap.streaming_video.domain;
 
-import lombok.*;
+import jakarta.validation.constraints.NotBlank;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
-import java.util.Objects;
+
 
 @Document(collection = "VideoCollection")
 public class Video {
     @Id
     private String id;
+    @NotBlank(message = "Título não pode ser nulo")
     private String titulo;
+    @NotBlank(message = "Descricao não pode ser nulo")
     private String descricao;
+    @NotBlank(message = "Url não pode ser nulo")
     private String url;
+
     private LocalDateTime dataPublicacao;
 
     public Video(String id, String titulo, String descricao, String url, LocalDateTime dataPublicacao) {
