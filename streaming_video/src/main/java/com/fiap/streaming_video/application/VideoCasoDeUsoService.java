@@ -9,5 +9,5 @@ public interface VideoCasoDeUsoService {
     Flux<Video> findAllVideos();
     Mono<Video> findByIdVideo(String id);
     Mono<Void> deleteVideo(String id);
- //   Mono<Void> updateVideo(String id);
+    Mono<Void> updateVideo(Video video);
 }
