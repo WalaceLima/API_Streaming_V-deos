@@ -133,3 +133,10 @@ A API possui um mecanismo robusto para lidar com erros e fornece respostas adequ
 ### Repositório API:
 - [API de Gestão de Eletrodomésticos](https://github.com/WalaceLima/APIGestaodeEletrodomesticosPOSFIAP.git).
 
+### Videos:
+- Video 1 - [https://youtu.be/dyg8dMMu5Pg](https://youtu.be/dyg8dMMu5Pg)
+- - Video 2 - [https://youtu.be/82KIx7Fj0_I](https://youtu.be/82KIx7Fj0_I)
+  - - Video 3 - [https://youtu.be/tLOie_GpIjs](https://youtu.be/tLOie_GpIjs)
+    - - Video 4 - [https://youtu.be/4D2KTM8bEsk](https://youtu.be/4D2KTM8bEsk)
+      - - Video 5 - [https://youtu.be/8I0ePg745B0](https://youtu.be/8I0ePg745B0)
+
