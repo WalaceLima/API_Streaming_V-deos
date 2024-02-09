@@ -2,6 +2,8 @@
 
 API de gestão de eletrodomésticos tem como objetivo permitir o cadastro e gerenciamento web de streaming de videos utilizando Clean Architecture em camadas: Controller,Service, Use case e Repository.
 
+### Videos de apresentação ao fim do Readme
+
 ### Ferramentas utitlizadas:
 -	Spring Boot (Auxilia na criação de microserviços)
 -	MongoDB Reactive (Banco não relacional para programação reativa)
@@ -130,13 +132,11 @@ A API possui um mecanismo robusto para lidar com erros e fornece respostas adequ
 
 - 400 Bad Request: Este código de status é retornado quando ocorre um erro no lado do cliente, como uma solicitação inválida ou parâmetros ausentes ou inválidos.
 
-### Repositório API:
-- [API de Gestão de Eletrodomésticos](https://github.com/WalaceLima/APIGestaodeEletrodomesticosPOSFIAP.git).
 
 ### Videos:
-- Video 1 - [https://youtu.be/dyg8dMMu5Pg](https://youtu.be/dyg8dMMu5Pg)
+- - Video 1 - [https://youtu.be/dyg8dMMu5Pg](https://youtu.be/dyg8dMMu5Pg)
 - - Video 2 - [https://youtu.be/82KIx7Fj0_I](https://youtu.be/82KIx7Fj0_I)
-  - - Video 3 - [https://youtu.be/tLOie_GpIjs](https://youtu.be/tLOie_GpIjs)
-    - - Video 4 - [https://youtu.be/4D2KTM8bEsk](https://youtu.be/4D2KTM8bEsk)
-      - - Video 5 - [https://youtu.be/8I0ePg745B0](https://youtu.be/8I0ePg745B0)
+- - Video 3 - [https://youtu.be/tLOie_GpIjs](https://youtu.be/tLOie_GpIjs)
+- - Video 4 - [https://youtu.be/4D2KTM8bEsk](https://youtu.be/4D2KTM8bEsk)
+- - Video 5 - [https://youtu.be/8I0ePg745B0](https://youtu.be/8I0ePg745B0)
 
